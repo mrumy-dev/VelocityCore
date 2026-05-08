@@ -17,6 +17,14 @@ sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
 sudo xcodebuild -license accept
 ```
 
+UE 5.7 also needs Xcode's Metal Toolchain component. If Unreal shows `cannot execute tool 'metal' due to missing Metal Toolchain`, run:
+
+```sh
+xcodebuild -downloadComponent MetalToolchain
+xcrun --sdk macosx metal -v
+xcrun --sdk macosx --find metallib
+```
+
 ## Rider Workflow
 
 - Keep generated folders out of Git: `Binaries/`, `Intermediate/`, `Saved/`, and `DerivedDataCache/`.

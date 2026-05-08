@@ -1,0 +1,18 @@
+{
+	"FileVersion": 3,
+	"Category": "Games",
+	"Description": "Velocity Core - UE5 C++ parkour arena shooter prototype.",
+	"Modules": [
+		{
+			"Name": "VelocityCore",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "EnhancedInput",
+			"Enabled": true
+		}
+	]
+}

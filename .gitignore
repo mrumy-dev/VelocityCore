@@ -1,0 +1,54 @@
+# Unreal Engine generated files
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+Script/
+
+# User/editor state
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userprefs
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+
+# Rider/JetBrains generated project files
+*.sln.DotSettings.user
+*.uprojectdirs
+
+# Unreal generated project files
+*.sln
+*.xcodeproj/
+*.xcworkspace/
+*.code-workspace
+
+# Build products and symbols
+*.dll
+*.dylib
+*.exe
+*.app
+*.lib
+*.a
+*.obj
+*.o
+*.pdb
+*.ilk
+*.exp
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+*.swp
+*.DS_Store
+Thumbs.db
+
+# Keep source assets under Content tracked, but ignore autosaves/backups
+Content/**/Autosaves/
+Content/**/Backup/
